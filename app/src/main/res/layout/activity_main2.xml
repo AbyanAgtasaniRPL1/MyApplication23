@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgwhite"
+    tools:context=".Main2Activity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SUKSES LOGIN"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:ems="10"
+            android:hint="BILANGAN 1"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="BILANGAN 2" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="HASIL" />
+    <TextView
+        android:id="@+id/textViewh"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="40dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center">
+
+
+        <Button
+            android:id="@+id/btambah"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:text="+"
+            android:textSize="40sp"
+            android:layout_marginRight="30dp" />
+
+        <Button
+            android:id="@+id/bkurang"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:text="-"
+            android:textSize="40sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/bkali"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:text="x"
+            android:textSize="25dp"
+            android:layout_marginRight="30dp" />
+
+        <Button
+            android:id="@+id/bbagi"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:text=":"
+            android:textSize="40sp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+</LinearLayout>

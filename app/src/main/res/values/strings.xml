@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application23</string>
+    <string name="facebook_app_id">159001022198584</string>
+    <string name="fb_login_protocol_scheme">fb159001022198584</string>
+
+    <string-array name="Spinner_items">
+        <item>Bahasa Indonesia</item>
+        <item>English</item>
+        <item>Jawa</item>
+        <item>Arab</item>
+    </string-array>
+</resources>

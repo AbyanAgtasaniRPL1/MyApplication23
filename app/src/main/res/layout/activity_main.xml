@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgwhite"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/Spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:entries="@array/Spinner_items"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="189dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/instagram"
+        android:gravity="center"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/edittext1"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bgedittext"
+        android:textSize="15dp"
+        android:hint="  Nomor telepon, email, atau nama pengguna"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bgedittext"
+        android:textSize="15dp"
+        android:hint="  Kata Sandi"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnlogin2"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#FDF9F9"
+        android:background="@drawable/bglogin"
+        android:text="Log In"
+        android:textSize="15dp" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="Lupa detail informasi masuk anda? "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="Dapatkan Bantuan"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="untuk masuk."
+        android:textStyle="bold"
+        android:textSize="12dp"
+        android:textColor="#000000"
+        android:layout_gravity="center"/>
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="12dp"
+            android:text="Tidak punya akun?" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Buat Akun."
+            android:textStyle="bold"
+            android:textSize="12dp"
+            android:textColor="#000"/>
+    </LinearLayout>
+    <View
+        android:layout_width="400dp"
+        android:layout_height="1dp"
+        android:background="#C12E2E2E"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"
+    android:text="From"
+    android:textSize="10dp"
+    android:layout_gravity="center" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="FACEBOOK"
+        android:textColor="#000"
+        android:layout_gravity="center"/>
+</LinearLayout>
